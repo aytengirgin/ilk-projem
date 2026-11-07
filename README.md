@@ -1,15 +1,39 @@
-# ilk-projem
-İlk GitHub projem
-UML Diyagramları
+Çalışma Modelleri Araştırma Projesi
 
-1. Use Case Diagram (Kullanım Durumu Diyagramı)
+Projenin Amacı
 
-Araştırmacının sistemde gerçekleştireceği işlemleri gösterir. Veri setinin yüklenmesi, çalışan değişkenlerinin analiz edilmesi, çalışma modellerinin karşılaştırılması ve sonuçların raporlanması bu diyagramda ele alınmıştır.
+Bu projede uzaktan çalışma günleri ile çalışan verimliliği arasındaki ilişki incelenmiştir.
 
-2. Activity Diagram (Etkinlik Diyagramı)
+Kullanılan Veri Seti
 
-Araştırma sürecinin başlangıcından sonuçların raporlanmasına kadar izlenen adımları ve karar noktalarını gösterir. Veri setinin seçilmesi, kontrol edilmesi, analiz edilmesi ve sonuçların değerlendirilmesi bu sürecin temel aşamalarıdır.
+- Veri seti: Remote Worker Productivity Dataset
+- Dosya biçimi: CSV
+- Gözlem sayısı: 1500
+- Değişken sayısı: 30
+- Veri kaynağı: https://huggingface.co/datasets/nprak26/remote-worker-productivity
+- Lisans: Doğrulanacak
 
-3. Class Diagram (Sınıf Diyagramı)
+Kullanılan Araçlar
 
-Projede kullanılan temel sınıfları, bu sınıfların özelliklerini ve aralarındaki ilişkileri gösterir. Veri seti, çalışan, analiz ve rapor gibi kavramlar araştırmanın yapısını açıklamak amacıyla ele alınmıştır.
+- Python
+- Google Colab
+- Pandas
+- Matplotlib
+
+Yapılan Analizler
+
+- Veri setinin boyutunun incelenmesi
+- Eksik verilerin kontrol edilmesi
+- Sayısal değişkenlerin özetlenmesi
+- Uzaktan çalışma gününe göre ortalama verimlilik analizi
+- Grafik oluşturulması
+
+Ekip Katkıları
+
+Ekip üyeleri ve görevleri: [Buraya ekip üyelerini ve görevlerini yazın.]
+
+Çıktılar
+
+- grafik.png
+- kullanilan_veri.csv
+- Çalışma_Modeleri_Arastirma_Projesi.ipynb
